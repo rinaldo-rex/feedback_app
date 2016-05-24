@@ -1,0 +1,9 @@
+---
+applications:
+- name:	php_cloudant
+  memory: 128M
+  instances: 1
+  host: ledfeed
+  buildpack: php_buildpack
+  services:
+  - myCloudant
